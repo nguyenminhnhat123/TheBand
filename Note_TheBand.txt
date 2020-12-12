@@ -2,7 +2,7 @@
 https://fullstack.edu.vn/courses/html-css
 Phần 8: Xây dựng web The band
 https://fullstack.edu.vn/learning/html-css/html-css-mini-01-common-components
-1.Những thành phần bố cục hay gặp trên 1 website:
+Những thành phần bố cục hay gặp trên 1 website:
  - Header
  - Navigation (điều hướng)
  - Breadcrumb
@@ -11,7 +11,8 @@ https://fullstack.edu.vn/learning/html-css/html-css-mini-01-common-components
  - Slider
  - Content (nội dung chính)
  - Footer
-2. Phân tích dự án the band:
+https://fullstack.edu.vn/learning/html-css/html-css-mini-01-create-project-base/notes
+Phân tích dự án the band:
  - Header
  - Slider
  - Content:
@@ -20,3 +21,4 @@ https://fullstack.edu.vn/learning/html-css/html-css-mini-01-common-components
    + Contact
    + Image
  - Footer
+https://fullstack.edu.vn/learning/html-css/html-css-mini-01-header-css/notes
