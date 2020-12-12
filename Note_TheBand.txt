@@ -1,0 +1,22 @@
+-----12/12/2020-----------------------
+https://fullstack.edu.vn/courses/html-css
+Phần 8: Xây dựng web The band
+https://fullstack.edu.vn/learning/html-css/html-css-mini-01-common-components
+1.Những thành phần bố cục hay gặp trên 1 website:
+ - Header
+ - Navigation (điều hướng)
+ - Breadcrumb
+ - Banner ( là những cái hình ảnh đặt vị trí bất kỳ trên website, được hiểu là ảnh quảng cáo)
+ - Sidebar ( 1 cái thanh có thể đặt bên trái or phải của màn hình, navigation phụ)
+ - Slider
+ - Content (nội dung chính)
+ - Footer
+2. Phân tích dự án the band:
+ - Header
+ - Slider
+ - Content:
+   + About
+   + Tour date
+   + Contact
+   + Image
+ - Footer
