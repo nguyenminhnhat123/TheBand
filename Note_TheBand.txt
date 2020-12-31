@@ -11,6 +11,7 @@ Những thành phần bố cục hay gặp trên 1 website:
  - Slider
  - Content (nội dung chính)
  - Footer
+
 https://fullstack.edu.vn/learning/html-css/html-css-mini-01-create-project-base/notes
 Phân tích dự án the band:
  - Header
@@ -21,4 +22,78 @@ Phân tích dự án the band:
    + Contact
    + Image
  - Footer
+
 https://fullstack.edu.vn/learning/html-css/html-css-mini-01-header-css/notes
+- Điều đầu tiên khi làm 1 website thì phải tự đặt ra nhưng câu hỏi:
+ + Vị trí
+ + Kích thước (width, height)
+ + Màu sắc
+ + Kiểu dáng (kiểu chữ, hình tròn, hình vuông, ... )
+
+- Cách soi kích thước và màu sắc:
+ + Soi kích thước width and height thì F12 lên rồi vào computed có kích thước 998 x 46 -> width is 998 and height is 46.
+
+- Nguyên tắc làm việc:
+ + Từ ngoài vào trong: có nghĩa là từ thằng cha rồi đến thằng con (main -> header,slidẻ,content,footer)
+ + Từ trên xuống dưới là từ header -> slider -> content -> footer
+ + Từ tổng quan đến chi tiết
+
+- Sự khác nhau của selector * và html:
+ + Selector * sẽ rộng hơn html
+
+
+-font-family: Arial, Helvetica, sans-serif;
+ + Arial, Helvetica is nhưng font của trình duyệt (trường hợp trình duyệt ko có font Arial thì nó sẽ lấy font Helvetica và ngược lại)
+ + sans-serif is chủng font ( có nghĩa nếu trên trình duyệt mà ko chưa 2 font Arial, Helvetica này thì chủng font sans-serif sẽ lấy đại 1 loại nào tương tự)
+
+ inline: ko thể setting chiều cao và chiều rộng
+ inline-block: có thể setting theo chiều cao và chiều rộng
+
+ https://fullstack.edu.vn/learning/html-css/html-css-mini-01-navigation-css/notes
+- Display:block -> có thể setting full width của thằng cha chứa nó
+- Display:inline-block -> ko thể full width cho thằng cha
+- nav > li > a: selector ">" là chỉ trỏ đến thằng cấp 1 mà thôi
+
+https://fullstack.edu.vn/learning/html-css/html-css-mini-01-header-search-css/notes
+- Icon: https://themify.me/themify-icons
+- cursor: pointer; -> để quyết định thay đổi trỏ chuột thành hình bàn tay, hoặc hình nào bất kỳ...
+
+https://fullstack.edu.vn/learning/html-css/html-css-mini-01-header-fixed-css/notes
+https://fullstack.edu.vn/learning/html-css/html-css-mini-01-about-section-css/notes
+https://fullstack.edu.vn/learning/html-css/html-css-mini-01-team-section-css/notes
+- Khi sử dụng thẻ float thì thằng con tách ra khỏi thằng cha, cách khắc phục:
+ + Dùng thuộc tính overflow: hidden; để nơi thằng cha
+ + Tạo 1 thẻ <div class="clear"></div> rồi setting thuộc tính clear:both;
+
+https://fullstack.edu.vn/learning/html-css/html-css-mini-01-tour-tickets-css/notes
+- Sử dụng float: thẻ inline -> thẻ block
+- Sử dụng float: có thể margin âm
+- Thẻ block thì có thể sử dụng đc line-height
+
+https://fullstack.edu.vn/learning/html-css/html-css-mini-01-tour-places-css/notes
+- Trường hợp nếu ko bo hết 2 bên thì dùng margin-left: -8px, margin-right: -8px
+
+https://fullstack.edu.vn/learning/html-css/html-css-mini-01-tour-row-columns-layout/notes
+https://fullstack.edu.vn/learning/html-css/html-css-mini-01-contact-form-css/notes
+- Cách query class tên trùng nhau:
+ .contact-info i[class*="ti-"] {
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
