@@ -80,6 +80,11 @@ https://fullstack.edu.vn/learning/html-css/html-css-mini-01-contact-form-css/not
     
 }
 
+- Muốn thêm icon trên đầu mỗi tab:
+ => nghiên cứu favicon
+- Nếu muốn trang smooth
+ => scroll-behavior: smooth;
+
 
 
 
