@@ -85,6 +85,70 @@ https://fullstack.edu.vn/learning/html-css/html-css-mini-01-contact-form-css/not
 - Nếu muốn trang smooth
  => scroll-behavior: smooth;
 
+Phần 9: Responsive web The band
+https://fullstack.edu.vn/learning/html-css/html-css-mini-01-what-is-responsive/notes
+https://fullstack.edu.vn/learning/html-css/html-css-mini-01-media-queries/notes
+@media
+- Phải xác định width. Bao nhiều width là di động, tablet, PC
+@media (max-width: 800px) {
+  //CSS
+  // max-width: 800px là độ rộng tối đa 0 -> 800px
+}
+
+@media (min-width: 800px) {
+  //CSS
+  // max-width: 800px là độ rộng tối thiểu => ít nhất 800px mới chạy
+}
+
+- Kích thước du di tương đương với 99% của @media SMP, Tablet, PC:
+ + PC: >= 1024px
+ + Tablet: >= 740px & < 1024px
+ + Mobile: < 740px
+
+https://fullstack.edu.vn/learning/html-css/html-css-mini-01-tablet-responsive/notes
+
+- overflow: hidden -> có nghĩa là những đối tượng nào của thằng con mà chui ra khỏi khu vực của thằng cha điều bị ẩn đi
+
+https://fullstack.edu.vn/learning/html-css/html-css-mini-01-mobile-menu-responsive/notes
+https://fullstack.edu.vn/learning/html-css/html-css-mini-01-mobile-menu-fix-bug/notes
+https://fullstack.edu.vn/learning/html-css/html-css-mini-01-mobile-submenu-fix-bug/notes
+- Trong JS có hổ trợ 1 method .nextElementSibling 
+  -> Nghĩa là có tồn tại anh em liền kề
+- .classList -> để truy vấn đến tên class
+- .contains('className') -> tìm kiếm trong classList có tồn tại hay là ko
+- từ khóa "this" có nghĩa là đối tượng đăng truy vấn, đổi tượng khi mình đã onclick
+- event.preventDefault() -> có nghĩa là ngăn cản hoặc bỏ qua nó, bỏ qua sự kiện (event), bỏ qua cái mặc định
+
+https://fullstack.edu.vn/learning/html-css/html-css-mini-01-content-responsive/notes
+https://fullstack.edu.vn/learning/html-css/html-css-mini-01-contact-form-responsive/notes
+https://fullstack.edu.vn/learning/html-css/html-css-mini-01-review-2/notes
+https://fullstack.edu.vn/learning/html-css/html-css-mini-01-run-and-fix-bug-on-mobile/notes
+-ngrok.com -> để dùng deploy cho các thiết bị khác dùng thông qua mạng internet
+
+https://fullstack.edu.vn/learning/html-css/html-css-mini-01-fix-ui-bugs/notes
+- Trường hợp dùng background: url() thì ko nên dùng tuyệt đối mà nên dùng tương đối
+ + background: url('/assets/img/slide/slide1.jng') => SAI
+ + background: url('../img/slide/slide1.jng') => ĐÚNG
+
+- Khi dùng "./img/slide/slide1.jng" 
+ + Có nghĩa là cùng tầng, đứng ngang hàng với nhau
+ + Nó sẽ tìm 1 thư mục đứng ngang hàng với file CSS
+ + flie css/style.css => không tìm thấy folder img
+ 
+- Khi dùng "../img/slide/slide1.jng" 
+ + Có nghĩa là sẽ nhảy ra thêm 1 folder nữa
+ + Nó sẽ nhãy ra 1 folder và tìm folder img
+ + flie css/style.css -> folder css => Có tìm thấy folder img 
+
+- Riêng @media nên covert đơn vị px to em để được tương thích trên nhiều trình duyệt và ko bị lỗi
+
+Phần 10: Dựng bố cục web với Flexbox
+https://fullstack.edu.vn/learning/html-css/gioi-thieu-flexbox/notes
+
+
+
+
+
 
 
 
